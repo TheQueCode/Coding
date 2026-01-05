@@ -44,3 +44,22 @@ const arr = [1,2,3,4];
 arr.push(5);
 
 console.log(arr);
+
+const person = {
+  name: 'Alice',
+  age: 25
+};
+
+person.name = 'John';
+person.email = 'john@gmail.com';
+
+console.log(person);
+
+// Declare multiple values at once
+
+let a, b, c;
+
+const d = 10, e = 20, f = 30;
+
+console.log(a, b, c);
+console.log(d, e, f);
