@@ -12,7 +12,7 @@ const add = (a, b) => {
 const subtract = (a, b) => a - b;
 
 // Can leave off () with a single param
-const double = (a) => a * 2;
+const double = a => a * 2;
 
 // Returning an object
 const createObj = () => ({
@@ -26,7 +26,7 @@ numbers.forEach(function (n) {
 });
 
 // Arrow function in a callback
-numbers.forEach((n) => console.log(n));
+numbers.forEach(n => console.log(n));
 
 console.log(add(1, 2));
 console.log(subtract(10, 5));
