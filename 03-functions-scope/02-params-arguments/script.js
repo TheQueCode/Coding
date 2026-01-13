@@ -42,12 +42,10 @@ console.log(
 );
 
 // Arrays as params
-function getRandom(arr) {
-  const randomIndex = Math.floor(Math.random() * arr.length);
+function getRandom(...arr){
+  const random = Math.floor(Math.random() * arr.length);
 
-  const item = arr[randomIndex];
-
-  console.log(item);
+  return arr[random];
 }
 
-getRandom([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+console.log(getRandom(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
