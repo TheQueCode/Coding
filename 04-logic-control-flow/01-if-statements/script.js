@@ -27,7 +27,7 @@ if (x !== y) {
   console.log(`${z} is 20`);
 }
 
-console.log(z); // Throw error
+console.log(z); // Throws an error
 
 // Shorthand If/Else
 if (x >= y)
