@@ -1,5 +1,5 @@
 // Loop through arrays
-const items = ['book', 'table', 'chair', 'kite'];
+const items = ['book', 'table', 'chair', 'kite', 'kitten'];
 const users = [{ name: 'Brad' }, { name: 'Kate' }, { name: 'Steve' }];
 
 // for (const item of items) {
