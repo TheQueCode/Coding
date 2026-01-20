@@ -1,15 +1,15 @@
-const socials = ['Twitter', 'LinkedIn', 'Facebook', 'Instagram'];
+const socials = ['Twitter', 'LinkedIn', 'Facebook', 'Instagram' ];
 
 // View prototype chain
-console.log(socials.__proto__);
+// console.log(socials.__proto__);
 
 // Long form
-socials.forEach(function (item) {
-  console.log(item);
-});
+// socials.forEach(function (item) {
+//   console.log(item);
+// });
 
 // Short form
-socials.forEach((item) => console.log(item));
+socials.forEach(item => console.log(item));
 
 // We can also pass in the index and original array
 socials.forEach((item, index, arr) => console.log(`${index} - ${item}`, arr));
