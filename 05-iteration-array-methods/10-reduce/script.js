@@ -23,8 +23,6 @@ const cart = [
   { id: 3, name: 'Product 3', price: 200 },
 ];
 
-const total = cart.reduce(function (acc, product) {
-  return acc + product.price;
-}, 0);
+const total = cart.reduce((acc,cur) => acc + cur.price, 0);
 
 console.log(total);
